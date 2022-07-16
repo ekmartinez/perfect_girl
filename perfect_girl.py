@@ -31,7 +31,7 @@ class Girl:
               "Would you cover my shadows\n" + "under your heavenly, bold, long \n" + self.hair_color + " hair?\n"
         print(comp)
 
-def runner():
+def process():
     print("\nEnter desired details: \n")
     name_get = input("\nEnter her first name: ")
     last_name_get = input("Enter her last name: ")
@@ -45,4 +45,4 @@ def runner():
     girl.compliment_girl()
 
 if __name__ == "__main__":
-    runner()
+    process()
